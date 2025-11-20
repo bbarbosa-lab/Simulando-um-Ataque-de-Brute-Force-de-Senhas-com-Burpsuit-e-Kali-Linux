@@ -27,6 +27,7 @@ Início:
   Primeiramente iniciaremos o Burpsuit Community Edition.
   Após sua inicialização o usuário deverá deixar em "Temporary Project" clickar em Next. (Imagem 1)
   Clickar em Start Burp. (Imagem 2)
+  Após isso a tela inicial do Burp Suite aparecerá (imagem 3)
 
 3# Configurações iniciais
   Após isso a tela inicial do Burp Suite aparecerá.
@@ -61,6 +62,13 @@ Início:
   Após isso o programa iniciará uma lista de entradas nos campos
   A senha e usuário serão encontrados pela diferença do tamanho da saída do html
     Explicação: Entradas erradas resultarão no mesmo resultado "Lenght" enquanto um possível resultado positivo terá um valor diferenciado.
+    No meu sistema após 226 entradas o resultado do "Lenght" apresentou-se alterado, resultado exatamente no ID e Senha que estava procurando. (Imagem 10)
+
+Existem diversas outras configurações, sendo possível burlar sistemas de IDS e IPS, sendo necessário o estudo do sistema a ser atacado para a melhor configuração.
+A plataforma do DVWA apresenta diversos níveis diferentes de dificuldade de brute force, para praticar o usuário poderá tentar quebrar a segurança dos outros níveis, através de configurações adicionais.
+
+Obrigado.
+    
     
   
   
