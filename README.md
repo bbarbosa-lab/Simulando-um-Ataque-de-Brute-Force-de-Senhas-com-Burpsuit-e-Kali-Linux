@@ -1,4 +1,4 @@
-<img width="540" height="767" alt="image" src="https://github.com/user-attachments/assets/fac4f8f6-1c19-4500-ba1a-b3ef2f39bb6f" /># Simulando-um-Ataque-de-Brute-Force-de-Senhas-com-Burpsuit-e-Kali-Linux #
+# Simulando-um-Ataque-de-Brute-Force-de-Senhas-com-Burpsuit-e-Kali-Linux #
 O presente trabalho refere-se ao trabalho prático "Simulando um Ataque de Brute Force de Senhas com Medusa e Kali Linux"
 
 Como o enunciado do trabalho descreveu que o aluno poderia experimentar com outras ferramentas, o trabalho foi apresentado com algumas alterações:
@@ -53,7 +53,15 @@ Início:
   Insira a Worlist em "Payload Settings [Runtime file]" (Imagem 9)
   Eu usei uma wordlist própria adaptada da fasttrack2, você pode usar qualquer wordlist que achar apropriada como a rockyou ou outras.
   O "Payload set" trata-se dos campos de entrada, como temos dois campos o número um será o username e o número dois o password.
-  Altere o "payload set" para 2
+  Altere o "payload set" para 2 deixe o "Payload type" em Runtime file também.
+  Escolha a wordlist em "Payload Settings [Runtime file]"
+
+7# Rodando o ataque de força bruta
+  Clique em Start attack
+  Após isso o programa iniciará uma lista de entradas nos campos
+  A senha e usuário serão encontrados pela diferença do tamanho da saída do html
+    Explicação: Entradas erradas resultarão no mesmo resultado "Lenght" enquanto um possível resultado positivo terá um valor diferenciado.
+    
   
   
   
